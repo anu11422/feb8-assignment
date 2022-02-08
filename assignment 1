@@ -1,0 +1,24 @@
+name=input('enter name:')
+surname=input('enter surname:')
+father=input('enter father name:')
+mother=input('enter mother name:')
+age=input('enter age :')
+college=input('enter college name:')
+destination=input('enter college destination:')
+graduation=input('enter graduations:')
+food=input('enter favourite food:')
+colour=input('enter favourite colour:')
+hobbies=input('enter hobbies;')
+native=input('enter native place:')
+output:
+enter name:anusha sai
+enter father name:srinivas
+enter mother name:lakshmi
+enter age:20
+enter college name:aditya degree college
+enter college destination:amalapuram
+enter graduation:BCA
+enter favourite food:biryani
+enter fovourite colour:green
+enter hobbies:learn new things
+enter native place:katrenikona
