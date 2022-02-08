@@ -1,0 +1,7 @@
+write a python program to convert kilometers into centimetres.
+kilometer=int(input("enter the length in kilometer:")
+centimeter=10,000*kilometer;
+print("the length in centimeter",round((centimeter,2))
+output:
+enter the length in kilometer :30
+the length is centimeter:3000000
