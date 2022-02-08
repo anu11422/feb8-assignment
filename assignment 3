@@ -1,0 +1,12 @@
+write a python program to find EMI for the given amount for the specific period.
+P=float(input('enter principle amount:'))
+R=float(input('enter annual interest rate:'))
+n=int(input('enter number of months:'))
+r=R/(12*100)
+EMI=P*r*((1+r)**n)/((1+r)**n-1)
+print('monthly EMI=',EMI)
+output:
+enter principle amount :10.000000
+enter annual interest rate:7
+enter number of months:120
+monthly EMI=11610.847921862374
