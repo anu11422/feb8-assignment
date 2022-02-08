@@ -1,0 +1,39 @@
+print('addition')
+a=int(input(enter a:'))
+b=int(input(enter b:'))
+c=a+b
+print(c)
+print('subtraction')
+a=int(input(enter a:'))
+b=int(input(enter b:'))
+c=a-b
+print(c)
+print('multiplication')
+a=int(input(enter a:'))
+b=int(input(enter b:'))
+c=a*b
+print(c)
+print('division')
+a=int(input(enter a:'))
+b=int(input(enter b:'))
+c=a/b
+print(c)
+print('program is completed')
+output:
+addition
+enter a:10
+enter b:20
+30
+subtraction
+enter a:14
+enter b:13
+1
+multiplication
+enter a:3
+enter b:4
+12
+division
+enter a:12
+enter b:4
+3
+program is completed
