@@ -1,0 +1,18 @@
+write a program for working on comparison operators take two inputs and perform all comparsion operations.
+a=int(input("enter value of a:"))
+b=int(input("enter value of b:"))
+print("a greater than b is:",a>b)
+print("a less than b is:",a<b)
+print("a equal to b is:",a=b)
+print("a not equal to b is:",a!=b)
+print(a greater than or equal to b is:,"a>=b)
+print(a less than or equal to b is:,"a<=b)
+output:
+enter value of a:10
+enter value of b:20
+a greater than b is :false
+a less than b is:true
+a equal to b is:false
+a not equal to b is:true
+a greater than or equal to b is :false
+a less than or equal to b is :true
