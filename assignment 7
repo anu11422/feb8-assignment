@@ -1,0 +1,6 @@
+a=float(input("enter the first value a:"))
+b=float(input("enter the second value b:"))
+if(a>b):
+print("{0} is  greater than {1}".format(a,b))
+else(b>a):
+print("{0} is greater than {1}".format(b,a))
