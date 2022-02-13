@@ -1,0 +1,28 @@
+rp=2000
+sp=400
+opp=250
+sap=50
+shp=200
+cname=input('enter the name of the customer:')
+cphno=int(input('enter the customer phone number:'))
+rp=int(input('enter no of rice packets:'))
+sp=int(input('enter no of sugar packets'))
+opp=int(input('enter no of oilpackets:'))
+sap=int(input('enter no of soaps:'))
+shp=int(input('enter no of shampoo:'))
+if bill>5000:
+    dis=bill*10/100
+    tax=bill*10/100
+elif bill>3000:
+    dis=bill*8/100
+    tax=bill*8/100
+elif bill>2000:
+    dis=bill*5/100
+    tax=bill*5/100
+elif bill>1000:
+    dis=bill*3/100
+    tax=bill*3/100
+elif bill>3000:
+    tax=bill*10/100
+else:
+    tax=bill*18/100
