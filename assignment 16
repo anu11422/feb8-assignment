@@ -1,0 +1,6 @@
+n=int(input('enter a number:'))
+rem=o
+while n>o:
+sum=n%o
+n=n/10
+print('The sum is:,rem)
