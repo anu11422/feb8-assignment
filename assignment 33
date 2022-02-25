@@ -1,0 +1,20 @@
+def function(x):
+
+  array = []
+  aa = len(x)
+
+  for num in x :
+    if (num == 1 or num ==2):
+      array.append()
+    elif num >2:
+      for i in range (2, aa):
+        if (num % i )== 0:
+          array.append()
+        else:
+          print (num)
+          array.append(num)
+
+  return len(array)
+
+z = [4,5,6,7,8,9,10]
+print (function(z))
