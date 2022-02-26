@@ -1,0 +1,9 @@
+a=[0,1,2,3,4,5]
+def get_no_of_elements(list):
+count = 0
+for element in list:
+count += 1
+return count
+for e in a:
+    print(a)
+print("Number of elements in the list: ", get_no_of_elements(list))
